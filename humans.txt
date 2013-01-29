@@ -1,0 +1,55 @@
+                                               .                                                                                                                        
+                                              .'                                                                                                                        
+                                              .'                                                                                                                        
+                                              .'                                                                                                                        
+                                              .'                                                                                                                        
+     '''''     ''',  ''''  :''    ''''''''    .'                                                                                                                        
+     ''''',    ''';  ''''  '''    ''''''''    .'                                                                                                                        
+     ''''';    :'''  ''''  '''    ''''''''    .'     ''''''                                                                                 '.                          
+    ,''''''    .'''  ''''  '''    ''''        .'       ''`                     `                                                           '''                          
+    ;'','''     '''  ''''  '':    ''''        .'       ''                     ',                                                    '.      '`                          
+    '''.'''     ''' ,''''  ''.    ''''        .'       ''                     ',                                                    '.                                  
+    ''' '''     ''' ''''', ''     ''''        .'       ''           .         ',         .                    .            ..      `'.                             .    
+    ''' '''     ''' '';'''.''     ''''        .'       ''    '''' '''''`   ,'''''',   :'''''`  ,''' ,'''   ''';'';      .'''''': :''''''. ''''  ;'''''   '''',  ,'''''. 
+    ''' '''     ''' ''.''',''     '''''''     .'       ''      '''   `''     ,',     ;'    ''    ;''; ,'   ';   :'.    ,'     ';   ;'.      ''    ''      :'   :'    '' 
+    '': '''.    '''.'' ''''''     '''''''     .'       ''      ''     '',    ,',     ';     ''   ;'.  .'   ',    ''    ''     '.   ;'.      ''    :''     '`   ''     ''
+   .''. ''':    ,'':'' ''''''     '''''''     .'       ''      ''     .';    ,',    ;'      ''   ;'.   ,   .     ''   .'.     '    ;'.      ''     ''     '   ,'.     ''
+   ;''  ''''    `''''' ''''''     ''''        .'       ''      ''     .';    ,',    ''      ''   ;'.             ''   ''           ;'.      ''     ''.   ''   ''      ''
+   '''''''''     ''''' ''''',     ''''        .'       ''      ''     .';    ,',    ''''''''''   ;'.       `:''''''   ''           ;'.      ''      ''   '    ''''''''''
+   '''''''''     ''''' :''''`     ''''        .'       ''      ''     .';    ,',    ''           ;'.      '',    ''   ''           ;'.      ''      ''  .'    ''        
+   '''''''''     ''''; .''''      ''''        .'       ''      ''     .';    ,',    :',          ;'.      ''     ''   .':          ;'.      ''      :'' '.    ,';       
+   '''   '''     ''''.  ''''      ''''        .'       ''      ''     .';    ,',     ''          ;'.      ''     ''    ''          ;'.      ''       '' '      ''       
+   '''   '''     ''''   ''''      ''''....    .'       ''      ''     .';     ''     ;''     '   ;'.      ''    '''    :''    ,:   `''      ''       '';'      ,''     '
+  .'';   '''`    ;'''   ''''      ''''''''    .'     ''''''  ,'''''   .'''    '''''   ,''''''   '''''     .''''' ''',   :''''''     ''''' ''''',      ''        .'''''' 
+  :'',   ''',    ,'''   ''''      ''''''''    .'                                                                                                                        
+  '''`   ''''     '''   ''';      ''''''''    .'                                                                                                                        
+                                              .'                                                                                                                        
+                                              .'                                                                                                                        
+                                              .'                                                                                                                        
+                                              .'                                                                                                                        
+                                              .'                                                                                                                        
+                                              .'                                                                                                      
+
+AWE SCHAFFHAUSEN IS:
+
+Andrea Werthmüller    Inhaberin/Konzeption/Design
+
+Stephan von Ow        Partner/Konzept/E-Media/Motion
+
+Nicola Wehrli         Partnerin/Beratung
+
+Jürg Osterwalder      Leitung Marketing/Kommunikation/Beratung
+
+Lisa Zimmermann       Konzeption/Design
+
+Mike Fischer          Web/e-Media/Interaction
+
+Roman Wüest           Web-Development & Interaction
+
+Nuno Pereira          Design/E-Media/Motion
+
+Christina Zehnder     Konzept/Grafik
+
+This site has been authored by Mike Fischer with a tremendous amount of help from Roman Wüest.
+It has been designed by either Stephan von Ow, Lisa Zimmerman, or Nuno Pereira. Or some combination of the aforementioned.
+It has been built with Sublime Text 2, Codekit and Chromium. It attempts to be HTML5 / CSS3 compliant.

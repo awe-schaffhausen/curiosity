@@ -1,0 +1,503 @@
+/* line 4, /Volumes/Webserver/beta/curiosity/css/master.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, /Volumes/Webserver/beta/curiosity/css/master.scss */
+a img {
+  border: none;
+}
+
+/* line 11, /Volumes/Webserver/beta/curiosity/css/master.scss */
+a {
+  border: none;
+  text-decoration: none;
+}
+
+/* line 16, /Volumes/Webserver/beta/curiosity/css/master.scss */
+::selection {
+  /*background: #;*/
+}
+
+/* line 20, /Volumes/Webserver/beta/curiosity/css/master.scss */
+::-moz-selection {
+  /*background: #;*/
+}
+
+/* line 24, /Volumes/Webserver/beta/curiosity/css/master.scss */
+body {
+  background: url(../img/noise.gif);
+}
+
+/* line 28, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.stop {
+  overflow: hidden;
+}
+
+/* line 30, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.master {
+  position: absolute;
+  overflow: hidden;
+  height: 200%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  font-family: helvetica, arial, sans-serif;
+  line-height: 18px;
+  font-size: 14px;
+}
+/* line 40, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.master > div {
+  height: 50%;
+  width: 100%;
+  position: relative;
+  float: left;
+  display: table;
+}
+
+/* line 50, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.partthree {
+  display: table;
+}
+/* line 52, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.partthree h1 {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0px;
+  line-height: 75px;
+  font-size: 100px;
+}
+
+/* line 61, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#papercut {
+  display: table-cell;
+  vertical-align: middle;
+  position: absolute;
+  z-index: 50;
+  width: 1024px;
+  height: 673px;
+}
+/* line 69, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#papercut .scene_0 {
+  opacity: 1;
+  display: block;
+}
+
+/* line 75, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#scroll, #shake {
+  position: fixed;
+}
+
+/* line 79, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#shake {
+  top: 50px;
+}
+
+/* line 81, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#reset {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+  width: 106px;
+  height: 106px;
+  border-radius: 400px;
+  background-color: rgba(200, 201, 201, 0.5);
+  cursor: pointer;
+  color: white;
+  font-family: georgia;
+  font-style: italic;
+  font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+  z-index: 100;
+  display: none;
+}
+
+/* line 100, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.pls {
+  display: block !important;
+}
+
+/* line 102, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape {
+  height: 150px;
+  width: 150px;
+  opacity: 0;
+  display: none;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+/* line 111, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_0 {
+  background-image: url(../img/test/002.png);
+}
+
+/* line 112, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_1 {
+  background-image: url(../img/colors/color2.png);
+}
+
+/* line 113, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_2 {
+  background-image: url(../img/colors/color3.png);
+}
+
+/* line 114, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_3 {
+  background-image: url(../img/colors/color4.png);
+}
+
+/* line 115, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_4 {
+  background-image: url(../img/colors/color5.png);
+}
+
+/* line 116, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_5 {
+  background-image: url(../img/colors/color6.png);
+}
+
+/* line 117, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_6 {
+  background-image: url(../img/colors/color7.png);
+}
+
+/* line 118, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_7 {
+  background-image: url(../img/colors/color8.png);
+}
+
+/* line 119, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_8 {
+  background-image: url(../img/colors/color9.png);
+}
+
+/* line 120, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_9 {
+  background-image: url(../img/colors/color10.png);
+}
+
+/* line 121, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_10 {
+  background-image: url(../img/colors/color11.png);
+}
+
+/* line 122, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_11 {
+  background-image: url(../img/colors/color12.png);
+}
+
+/* line 123, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_12 {
+  background-image: url(../img/colors/color13.png);
+}
+
+/* line 124, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_13 {
+  background-image: url(../img/colors/color14.png);
+}
+
+/* line 125, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_14 {
+  background-image: url(../img/colors/color15.png);
+}
+
+/* line 126, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_15 {
+  background-image: url(../img/colors/color16.png);
+}
+
+/* line 127, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.scene_16 {
+  background-image: url(../img/colors/color17.png);
+}
+
+/* line 129, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_0 {
+  background-position: 0px 0px;
+}
+
+/* line 130, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_1 {
+  background-position: 0px -150px;
+}
+
+/* line 131, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_2 {
+  background-position: 0px -300px;
+}
+
+/* line 132, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_3 {
+  background-position: 0px -450px;
+}
+
+/* line 133, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_4 {
+  background-position: 0px -600px;
+}
+
+/* line 134, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_5 {
+  background-position: 0px -750px;
+}
+
+/* line 135, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_6 {
+  background-position: 0px -900px;
+}
+
+/* line 136, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_7 {
+  background-position: 0px -1050px;
+}
+
+/* line 137, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_8 {
+  background-position: 0px -1200px;
+}
+
+/* line 138, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_9 {
+  background-position: 0px -1350px;
+}
+
+/* line 139, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_10 {
+  background-position: 0px -1500px;
+}
+
+/* line 140, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_11 {
+  background-position: 0px -1650px;
+}
+
+/* line 141, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_12 {
+  background-position: 0px -1800px;
+}
+
+/* line 142, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_13 {
+  background-position: 0px -1950px;
+}
+
+/* line 143, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_14 {
+  background-position: 0px -2100px;
+}
+
+/* line 144, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_15 {
+  background-position: 0px -2250px;
+}
+
+/* line 145, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.img_16 {
+  background-position: 0px -2400px;
+}
+
+/* line 147, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shapeshifter {
+  cursor: pointer;
+}
+
+/* line 151, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape1shifter0 {
+  background: url(../img/shapeshifter/01/1_1.png);
+}
+
+/* line 152, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape1shifter1 {
+  background: url(../img/shapeshifter/01/1_2.png);
+}
+
+/* line 153, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape1shifter2 {
+  background: url(../img/shapeshifter/01/1_3.png);
+}
+
+/* line 154, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape1shifter3 {
+  background: url(../img/shapeshifter/01/1_4.png);
+}
+
+/* line 155, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape1shifter4 {
+  background: url(../img/shapeshifter/01/1_5.png);
+}
+
+/* line 156, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape1shifter5 {
+  background: url(../img/shapeshifter/01/1_6.png);
+}
+
+/* line 157, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape1shifter6 {
+  background: url(../img/shapeshifter/01/1_7.png);
+}
+
+/* line 158, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.shape1shifter7 {
+  background: url(../img/shapeshifter/01/1_8.png);
+}
+
+/* line 161, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.story {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+/* line 167, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.story div {
+  position: absolute;
+  width: 300px;
+  top: 100%;
+  font-family: ant_l;
+  font-size: 15px;
+  line-height: 31px;
+  display: none;
+}
+/* line 176, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.story #s_0 {
+  top: 45%;
+  display: block;
+}
+
+/* line 182, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#descender {
+  display: table-cell;
+  vertical-align: middle;
+  position: absolute;
+  right: 0px;
+  height: 550px;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 5px 0px 0px 5px;
+  padding: 5px 9px;
+  z-index: 200;
+}
+/* line 193, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#descender div {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  background: url(../img/noise.gif);
+  border-radius: 20px;
+  margin: 9px 0px;
+}
+/* line 201, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#descender .here {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* line 204, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#directionalhelper {
+  position: fixed;
+  bottom: 30px;
+  height: 100px;
+  width: 100px;
+}
+
+/* line 211, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 185px;
+  left: 231px;
+}
+/* line 217, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation .shape {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  background-size: 300px !important;
+}
+/* line 223, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_0 {
+  background-position: 0px 0px !important;
+}
+/* line 224, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_1 {
+  background-position: 0px -300px !important;
+}
+/* line 225, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_2 {
+  background-position: 0px -600px !important;
+}
+/* line 226, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_3 {
+  background-position: 0px -900px !important;
+}
+/* line 227, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_4 {
+  background-position: 0px -1200px !important;
+}
+/* line 228, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_5 {
+  background-position: 0px -1500px !important;
+}
+/* line 229, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_6 {
+  background-position: 0px -1800px !important;
+}
+/* line 230, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_7 {
+  background-position: 0px -2100px !important;
+}
+/* line 231, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_8 {
+  background-position: 0px -2400px !important;
+}
+/* line 232, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_9 {
+  background-position: 0px -2700px !important;
+}
+/* line 233, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_10 {
+  background-position: 0px -3000px !important;
+}
+/* line 234, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_11 {
+  background-position: 0px -3300px !important;
+}
+/* line 235, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_12 {
+  background-position: 0px -3600px !important;
+}
+/* line 236, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_13 {
+  background-position: 0px -3900px !important;
+}
+/* line 237, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_14 {
+  background-position: 0px -4200px !important;
+}
+/* line 238, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_15 {
+  background-position: 0px -4500px !important;
+}
+/* line 239, /Volumes/Webserver/beta/curiosity/css/master.scss */
+#desolation #img_16 {
+  background-position: 0px -4800px !important;
+}
+
+@-moz-document url-prefix() {}
+/* line 252, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.ie .master {
+  overflow: inherit;
+}
+/* line 253, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.ie #papercut {
+  position: fixed;
+}
+/* line 254, /Volumes/Webserver/beta/curiosity/css/master.scss */
+.ie .story div {
+  display: block;
+}

@@ -1,0 +1,262 @@
+//DEFINES
+$masterwidth: 1024px;
+
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+a img{border:none;}
+a{
+	border:none;
+	text-decoration: none;
+}
+
+::selection {
+	/*background: #;*/
+}
+
+::-moz-selection {
+	/*background: #;*/
+}
+
+body{
+	background:url(../img/noise.gif);
+}
+
+.stop{overflow:hidden;}
+
+.master{
+	position:absolute;
+	overflow: hidden;
+	height:200%;
+	width:100%;
+	top:0px;
+	left:0px;
+	font-family:helvetica, arial, sans-serif;
+	line-height:18px;
+	font-size:14px;
+	&>div{
+		height:50%;
+		width:100%;
+		position:relative;
+		float:left;
+		display:table;
+	}
+}
+
+// .partsoneandtwo
+.partthree{
+	display:table;
+	h1{
+		display: table-cell;
+		vertical-align: middle;
+		margin:0px;
+		line-height:75px;
+		font-size: 100px
+	}
+}
+
+#papercut{
+	display:table-cell;
+	vertical-align: middle;
+	position:absolute;
+	z-index:50;
+	width:1024px;
+	height:673px;
+	// background-color:rgba(0,0,0,.1);
+	.scene_0{
+		opacity:1;
+		display:block;
+	}
+}
+
+#scroll, #shake{
+	position:fixed;
+}
+
+#shake{top:50px;}
+
+#reset{
+	position:absolute;
+	top:100px;
+	right:100px;
+	width:106px;
+	height:106px;
+	border-radius:400px;
+	background-color:rgba(200, 201, 201, .5);
+	cursor: pointer;
+	color:white;
+	font-family:georgia;
+	font-style: italic;
+	font-size:20px;
+	padding-top:10px;
+	text-align: center;
+	z-index:100;
+	display:none;
+}
+
+.pls{display:block !important;}
+
+.shape{
+	height:150px;
+	width:150px;
+	opacity:0;
+	display:none;
+	background-size:150px;
+	background-repeat:no-repeat;
+}
+
+.scene_0  {background-image:url(../img/test/002.png);}
+.scene_1  {background-image:url(../img/colors/color2.png);}
+.scene_2  {background-image:url(../img/colors/color3.png);}
+.scene_3  {background-image:url(../img/colors/color4.png);}
+.scene_4  {background-image:url(../img/colors/color5.png);}
+.scene_5  {background-image:url(../img/colors/color6.png);}
+.scene_6  {background-image:url(../img/colors/color7.png);}
+.scene_7  {background-image:url(../img/colors/color8.png);}
+.scene_8  {background-image:url(../img/colors/color9.png);}
+.scene_9  {background-image:url(../img/colors/color10.png);}
+.scene_10 {background-image:url(../img/colors/color11.png);}
+.scene_11 {background-image:url(../img/colors/color12.png);}
+.scene_12 {background-image:url(../img/colors/color13.png);}
+.scene_13 {background-image:url(../img/colors/color14.png);}
+.scene_14 {background-image:url(../img/colors/color15.png);}
+.scene_15 {background-image:url(../img/colors/color16.png);}
+.scene_16 {background-image:url(../img/colors/color17.png);}
+
+.img_0  {background-position: 0px 0*150px;}
+.img_1  {background-position: 0px -1*150px;}
+.img_2  {background-position: 0px -2*150px;}
+.img_3  {background-position: 0px -3*150px;}
+.img_4  {background-position: 0px -4*150px;}
+.img_5  {background-position: 0px -5*150px;}
+.img_6  {background-position: 0px -6*150px;}
+.img_7  {background-position: 0px -7*150px;}
+.img_8  {background-position: 0px -8*150px;}
+.img_9  {background-position: 0px -9*150px;}
+.img_10 {background-position: 0px -10*150px;}
+.img_11 {background-position: 0px -11*150px;}
+.img_12 {background-position: 0px -12*150px;}
+.img_13 {background-position: 0px -13*150px;}
+.img_14 {background-position: 0px -14*150px;}
+.img_15 {background-position: 0px -15*150px;}
+.img_16 {background-position: 0px -16*150px;}
+
+.shapeshifter{
+	cursor:pointer;
+}
+
+.shape1shifter0{background:url(../img/shapeshifter/01/1_1.png);}
+.shape1shifter1{background:url(../img/shapeshifter/01/1_2.png);}
+.shape1shifter2{background:url(../img/shapeshifter/01/1_3.png);}
+.shape1shifter3{background:url(../img/shapeshifter/01/1_4.png);}
+.shape1shifter4{background:url(../img/shapeshifter/01/1_5.png);}
+.shape1shifter5{background:url(../img/shapeshifter/01/1_6.png);}
+.shape1shifter6{background:url(../img/shapeshifter/01/1_7.png);}
+.shape1shifter7{background:url(../img/shapeshifter/01/1_8.png);}
+
+
+.story{
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+	div{
+		position:absolute;
+		width:300px;
+		top:100%;
+		font-family:ant_l;
+		font-size:15px;
+		line-height: 31px;
+		display:none;
+	}
+	#s_0{
+		top:45%;
+		display:block;
+	}
+}
+
+#descender{
+	display:table-cell;
+	vertical-align: middle;
+	position:absolute;
+	right:0px;
+	height:550px;
+	width:40px;
+	background-color:rgba(0, 0, 0, 0.2);
+	border-radius:5px 0px 0px 5px;
+	padding:5px 9px;
+	z-index:200;
+	div{
+		cursor:pointer;
+		width:24px;
+		height:24px;
+		background:url(../img/noise.gif);
+		border-radius:20px;
+		margin:9px 0px;
+	}
+	.here{background:rgba(0, 0, 0, 0.4);}
+}
+
+#directionalhelper{
+	position: fixed;
+	bottom:30px;
+	height:100px;
+	width:100px;
+}
+
+#desolation{
+	position:absolute;
+	height:300px;
+	width:300px;
+	top: 185px;
+	left: 231px;
+	.shape{
+		height:300px;
+		width:300px;
+		position:absolute;
+		background-size:300px !important;
+	}
+	#img_0  {background-position: 0px 0*300px !important;}
+	#img_1  {background-position: 0px -1*300px !important;}
+	#img_2  {background-position: 0px -2*300px !important;}
+	#img_3  {background-position: 0px -3*300px !important;}
+	#img_4  {background-position: 0px -4*300px !important;}
+	#img_5  {background-position: 0px -5*300px !important;}
+	#img_6  {background-position: 0px -6*300px !important;}
+	#img_7  {background-position: 0px -7*300px !important;}
+	#img_8  {background-position: 0px -8*300px !important;}
+	#img_9  {background-position: 0px -9*300px !important;}
+	#img_10 {background-position: 0px -10*300px !important;}
+	#img_11 {background-position: 0px -11*300px !important;}
+	#img_12 {background-position: 0px -12*300px !important;}
+	#img_13 {background-position: 0px -13*300px !important;}
+	#img_14 {background-position: 0px -14*300px !important;}
+	#img_15 {background-position: 0px -15*300px !important;}
+	#img_16 {background-position: 0px -16*300px !important;}
+}
+
+
+
+
+@media only screen and (device-width: 768px) /*IPAD*/ {}
+
+@media only screen and (max-width: 480px) /*IPHONE*/{}
+
+@-moz-document url-prefix() {}
+
+.ie{
+	.master{overflow:inherit;}
+	#papercut{position:fixed;}
+	.story div{display:block;}
+}
+
+.ie8{}
+
+.ie7{}
+
+.ie6{}
+

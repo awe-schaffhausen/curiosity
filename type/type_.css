@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'dobra_b';
+    src: url('dobra_b/dobraslab-book-webfont.eot');
+    src: url('dobra_b/dobraslab-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dobra_b/dobraslab-book-webfont.woff') format('woff'),
+         url('dobra_b/dobraslab-book-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dobra_m';
+    src: url('dobra_m/dobraslab-medium-webfont.eot');
+    src: url('dobra_m/dobraslab-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dobra_m/dobraslab-medium-webfont.woff') format('woff'),
+         url('dobra_m/dobraslab-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dobra_l';
+    src: url('webfonts/236E87_0_0.eot');
+    src: url('webfonts/236E87_0_0.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/236E87_0_0.woff') format('woff'),
+         url('webfonts/236E87_0_0.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ant_l';
+    src: url('ant_l/antennacond-light-webfont.eot');
+    src: url('ant_l/antennacond-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ant_l/antennacond-light-webfont.woff') format('woff'),
+         url('ant_l/antennacond-light-webfont.ttf') format('truetype'),
+         url('ant_l/antennacond-light-webfont.svg#AntennaCondLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ant_m';
+    src: url('ant_m/antennacond-medium3-webfont.eot');
+    src: url('ant_m/antennacond-medium3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ant_m/antennacond-medium3-webfont.woff') format('woff'),
+         url('ant_m/antennacond-medium3-webfont.ttf') format('truetype'),
+         url('ant_m/antennacond-medium3-webfont.svg#AntennaCondLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
